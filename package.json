@@ -1,0 +1,17 @@
+{
+  "name": "console-kit",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel"
+  },
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "zuhno11@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
