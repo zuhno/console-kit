@@ -4,13 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Console Kit</title>
+    <style>
+      h3 {
+        margin: 6px 0;
+      }
+      ul {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      li {
+        display: flex;
+        align-items: center;
+      }
+      li:not(:first-of-type) {
+        margin-top: 10px;
+      }
+      li > button {
+        margin-left: 5px;
+      }
+      button {
+        transition: all 0.1s;
+        user-select: none;
+        cursor: pointer;
+      }
+    </style>
   </head>
 
   <body>
-    <h2>지원 라이브러리</h2>
     <ul>
-      <li>CryptoJS(^4.2.0)</li>
+      <li>
+        <h3>Support libs</h3>
+      </li>
+      <li>
+        crypto-js@^4.2.0 -> CryptoJS
+        <button value="CryptoJS">copy</button>
+      </li>
+      <li>
+        lodash@^4.17.21 -> lodash
+        <button value="lodash">copy</button>
+      </li>
+      <li>
+        dayjs@^1.11.13 -> dayjs
+        <button value="dayjs">copy</button>
+      </li>
     </ul>
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="lib.js"></script>
+    <script type="module" src="clipboard.js"></script>
   </body>
 </html>
