@@ -2,6 +2,10 @@
 import CryptoJS from "crypto-js";
 window._cryptojs = CryptoJS;
 
+//* bcryptjs
+import bcryptjs from "bcryptjs";
+window._bcryptjs = bcryptjs;
+
 //* lodash
 import lodash from "lodash";
 window._lodash = lodash;

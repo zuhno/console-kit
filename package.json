@@ -10,6 +10,7 @@
   "author": "zuhno11@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "crypto-js": "^4.2.0",
     "dayjs": "^1.11.13",
     "lodash": "^4.17.21"
