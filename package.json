@@ -10,8 +10,10 @@
   "author": "zuhno11@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "@date-fns/tz": "^1.4.1",
     "bcryptjs": "^3.0.3",
     "crypto-js": "^4.2.0",
+    "date-fns": "^4.1.0",
     "dayjs": "^1.11.13",
     "lodash": "^4.17.21"
   },
