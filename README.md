@@ -2,7 +2,7 @@
 Console Kit is a tool that helps web developers test library functions directly in the browser console. Instead of creating a project and installing packages for every test, you can load various libraries into the window object and use them instantly.
 
 ## 🚀 Deployed Site
-https://console-kit.zuhno.io
+https://console-kit.zuhno.org
 
 ## 🎯 Key Features
 - Load multiple libraries into the window object.
